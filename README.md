@@ -1,7 +1,5 @@
 # image-classification-pytorch
-This repo is designed for those who want to start their projects of image classification.
-It provides fast experiment setup and attempts to maximize the number of projects killed within the given time.
-It includes a few Convolutional Neural Network modules.You can build your own dnn easily.
+
 
 ## Requirements
 Python3 support only. Tested on CUDA9.0, cudnn7.
@@ -42,8 +40,7 @@ Python3 support only. Tested on CUDA9.0, cudnn7.
 | oct-resnet              | 224/256   |
 | ...                     | ...       |
 
-### pre-trained model
-you can download pretrain model with url in ($net-module.py)
+
 
 #### From [torchvision](https://github.com/pytorch/vision/) package:
 
@@ -142,17 +139,4 @@ eg: trained by inception_resnet_v2, vgg/data/flowers/102:
 
 logdir is log dir in your project dir 
 
-## References
-1.[https://github.com/pytorch](https://github.com/pytorch)  
-2.[https://github.com/victoresque/pytorch-template](https://github.com/victoresque/pytorch-template)  
-3.[https://pytorch.org](https://pytorch.org)  
-5.[https://github.com/yunjey/pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)  
-4.[https://www.tensorflow.org](https://www.tensorflow.org)  
-5.[https://github.com/Cadene/pretrained-models.pytorch/tree/master/pretrainedmodels/models](https://github.com/Cadene/pretrained-models.pytorch/tree/master/pretrainedmodels/models)  
-6.[https://github.com/ericsun99/MobileNet-V2-Pytorch](https://github.com/ericsun99/MobileNet-V2-Pytorch)  
-7.[http://www.robots.ox.ac.uk/~vgg/data/flowers/102](http://www.robots.ox.ac.uk/~vgg/data/flowers/102)  
-8.[https://github.com/ericsun99/Shufflenet-v2-Pytorch](https://github.com/ericsun99/Shufflenet-v2-Pytorch)  
-9.[https://github.com/billhhh/MnasNet-pytorch-pretrained](https://github.com/billhhh/MnasNet-pytorch-pretrained)  
-10.[https://github.com/d-li14/octconv.pytorch](https://github.com/d-li14/octconv.pytorch)  
-11.[https://github.com/kuan-wang/pytorch-mobilenet-v3](https://github.com/kuan-wang/pytorch-mobilenet-v3)  
-"# image_classfication_pytorch" 
+
